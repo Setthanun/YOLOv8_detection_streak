@@ -11,9 +11,9 @@ Ultralytics YOLOv8 Docs - [Ultralytics YOLOv8](https://docs.ultralytics.com/mode
 
 # ขั้นตอนที่ 1: การติดตั้ง Dependencies
 
-ติดตั้ง Python 3.8 - 3.10 - [Download python](https://www.python.org/downloads/)
+## 1.1. ติดตั้ง Python 3.8 - 3.10 - [Download python](https://www.python.org/downloads/)
 
-ติดตั้ง Dependencies อื่นๆ
+## 1.2. ติดตั้ง Dependencies อื่นๆ
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install ultralytics
