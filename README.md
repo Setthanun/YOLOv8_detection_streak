@@ -99,10 +99,13 @@ results = model.predict(source=r"<ใส่ path โฟลเดอร์ที�
 ```
 
 # ขั้นตอนที่ 5: Result
-## 5.1. การ Detect และวาดจุด x,y,center
+## 5.1. การ Detect ธรรมดา
+![image](https://github.com/user-attachments/assets/df236d60-8088-4cdf-b1c8-b86684b59f7b)
+
+## 5.2. การ Detect และวาดจุด x,y,center
 ![image](https://github.com/user-attachments/assets/e4e3e3c9-f3d7-4504-8178-9d7e65284382)
 
-## 5.2. ผลลัพธ์
+## 5.2. ผลลัพธ์ในรูปแบบตาราง
 
 ![image](https://github.com/user-attachments/assets/70d040ac-efeb-42f4-a443-e0029886ce6b)
 
@@ -124,5 +127,6 @@ results = model.predict(source=r"<ใส่ path โฟลเดอร์ที�
 
 ไฟล์ Jupyter notebook ที่เป็นโค้ดสำเร็จรูปแล้ว - [Fit yolo](https://github.com/Setthanun/YOLOv8_detection_streak/blob/main/Fit_yolo.ipynb)
 
-[![Fit yolo](https://img.shields.io/badge/Fit%20yolo-YOLOv8-90EE90)](https://github.com/Setthanun/YOLOv8_detection_streak/blob/main/Fit_yolo.ipynb)
+ไฟล์โมเดลที่เทรนแล้ว - [Model](https://drive.google.com/file/d/1veqK1fydOkwu1toAbM0Fy2QSQefl48v0/view?usp=sharing)
 
+[![Fit yolo](https://img.shields.io/badge/Fit%20yolo-YOLOv8-90EE90)](https://github.com/Setthanun/YOLOv8_detection_streak/blob/main/Fit_yolo.ipynb) [![DRIVE - Model](https://img.shields.io/badge/DRIVE-Model-59ed17)](https://drive.google.com/file/d/1veqK1fydOkwu1toAbM0Fy2QSQefl48v0/view?usp=sharing)
