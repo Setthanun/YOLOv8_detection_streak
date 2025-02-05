@@ -120,3 +120,7 @@ results = model.predict(source=r"<ใส่ path โฟลเดอร์ที�
 
 [![DRIVE - labelImg](https://img.shields.io/badge/DRIVE-labelImg-006400)](https://drive.google.com/file/d/1sQ2g4o0fdcOSwqGdM01ZhoKLkwvsYdpV/view?usp=sharing)
 
+# เพิ่มเติม
+
+## ไฟล์ Jupyter notebook ที่เป็นโค้ดสำเร็จรูปแล้ว
+
