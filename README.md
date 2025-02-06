@@ -111,7 +111,8 @@ results = model.predict(source=r"<ใส่ path โฟลเดอร์ที�
 
 ## 5.2. ผลลัพธ์ในรูปแบบตาราง
 
-![image](https://github.com/user-attachments/assets/70d040ac-efeb-42f4-a443-e0029886ce6b)
+
+![image](https://github.com/user-attachments/assets/ef1f9c51-e2ae-4296-9c96-77a767e8ba3e)
 
 
 # ขั้นตอนที่ 6: เมื่อเกิดเหตุขัดข้อง
