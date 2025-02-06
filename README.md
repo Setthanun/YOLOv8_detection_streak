@@ -78,21 +78,25 @@ python labelImg.py
 from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 ```
+ตัวอย่างไฟล์ dataset.yaml - [dataset.yaml](https://github.com/Setthanun/YOLOv8_detection_streak/blob/main/dataset.yaml)
 
 ## 3.1. ในกรณีที่เริ่มเทรนใหม่
+ตัวอย่าง: results = model.train(data=r"C:\Users\SETTHANUN\Desktop\Dear\Dataset\dataset.yaml", epochs=5, imgsz=640, project=r"C:\Users\SETTHANUN\Desktop\results", name="train")
 
 ```python
 results = model.train(data=r"<ใส่ path ที่มีไฟล์ dataset.yaml อยู่>", epochs=5, imgsz=640, project=r"<ใส่ path สำหรับเก็บไฟล์โมเดล>", name="<ใส่ชื่อโฟลเดอร์สำหรับเก็บไฟล์โมเดล>")
 ```
 
 ## 3.2. ในกรณีที่เทรนต่อจากโมเดลที่มีอยู่แล้ว
+ตัวอย่าง: results = model.train(data=r"C:\Users\SETTHANUN\Desktop\Dear\Dataset\dataset.yaml", epochs=5, imgsz=640, project=r"C:\Users\SETTHANUN\Desktop\results", name="train", weights=r"C:\Users\SETTHANUN\runs\train\best.pt")
 
 ```python
 results = model.train(data=r"<ใส่ path ที่มีไฟล์ dataset.yaml อยู่>", epochs=5, imgsz=640, project=r"<ใส่ path สำหรับเก็บไฟล์โมเดล>", name="<ใส่ชื่อโฟลเดอร์สำหรับเก็บไฟล์โมเดล>", weights=r"<ใส่ path ที่เก็บไฟล์โมเดลที่เคยเทรนไว้แล้ว.pt>")
 ```
 
 # ขั้นตอนที่ 4: Test
-
+ตัวอย่าง: model = YOLO(r"C:\Users\SETTHANUN\runs\train\best.pt")
+results = model.predict(source=r"C:\Users\SETTHANUN\Desktop\Dear\Dataset\DataSet_Pre_Cut_With_Label\Streak_All\Test", save=True, project=r"C:\Users\SETTHANUN\Desktop\results", name="test")
 ```python
 model = YOLO(r"<ใส่ path ที่เก็บไฟล์โมเดลที่เทรนไว้แล้ว.pt>")
 results = model.predict(source=r"<ใส่ path โฟลเดอร์ที่เก็บภาพสำหรับทดสอบ>", save=True, project=r"<ใส่ path ที่จะเก็บผลลัพธ์การทดสอบ>", name="<ใส่ชื่อโฟลเดอร์ที่จะเก็บผลลัพธ์การทดสอบ>")
