@@ -35,7 +35,7 @@ pip install pyqt5-tools #กรณีมีปัญหาเกี่ยวก�
 ## 2.2. เรียกใช้งาน
 
 ```bash
-cd <path โฟลเดอร์ labelImg-master>
+cd <path โฟลเดอร์ labelImg-master> #ex. cd C:\Users\Admin\Desktop\labelImg-master
 python labelImg.py
 ```
 จะขึ้นหน้านี้
